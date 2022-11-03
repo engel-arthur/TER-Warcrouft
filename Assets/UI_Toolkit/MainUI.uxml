@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="InfoRessourcesPanel" style="height: 38px; width: 272px; position: absolute; background-color: rgb(161, 161, 161); font-size: 14px; top: 0; left: -1px;">
+        <ui:Label text="Nombre de bois récoltés :" display-tooltip-when-elided="true" name="Bois" style="height: 17px; width: 173px; white-space: nowrap; position: absolute; color: rgb(0, 0, 0); top: 5px; left: 6px;" />
+        <ui:Label text="0000000" display-tooltip-when-elided="true" name="nombreBois" style="align-items: auto; height: 18px; width: 108px; position: absolute; top: 6px; left: 160px; color: rgb(0, 0, 0); white-space: normal; -unity-text-align: upper-right;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="InfoCountDown" style="height: 64px; width: 221px; position: absolute; background-color: rgb(161, 161, 161); font-size: 14px; top: 0; left: initial; right: 0;">
+        <ui:Label text="Les ennemis arrivent dans :" display-tooltip-when-elided="true" name="textCountDown" style="height: 18px; width: 211px; white-space: nowrap; position: absolute; color: rgb(0, 0, 0); top: 5px; left: 6px; -unity-text-align: upper-center;" />
+        <ui:Label display-tooltip-when-elided="true" name="countDown" style="align-items: auto; height: 20px; width: 120px; position: absolute; top: 31px; left: 51px; color: rgb(0, 0, 0); white-space: normal; -unity-text-align: upper-center; font-size: 17px;" />
+    </ui:VisualElement>
+    <ui:Label display-tooltip-when-elided="true" name="vague" style="height: 65px; width: auto; white-space: normal; position: relative; color: rgb(255, 255, 255); top: 40%; left: auto; -unity-text-align: middle-center; font-size: 40px; -unity-font-style: bold; opacity: 1; right: auto; bottom: auto; max-width: initial;" />
+</ui:UXML>
